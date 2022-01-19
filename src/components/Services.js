@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+function Services() {
   return (
     <div className="home">
       <div class="container">
@@ -13,13 +13,16 @@ function Home() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Home page</h1>
+            <h1 class="font-weight-light">Service Page</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+                We Provide Services Like
             </p>
+            <ol>
+                <li>eg1</li>
+                <li>eg2</li>
+                <li>eg3</li>
+                <li>eg4</li>
+            </ol>
           </div>
         </div>
       </div>
@@ -27,4 +30,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Services;

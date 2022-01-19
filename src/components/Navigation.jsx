@@ -17,19 +17,30 @@ function Navigation() {
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
+              
+              
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/blog">
+                  Product
+                </NavLink>
+              </li>
+
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/Services">
+                  Services
+                </NavLink>
+              </li>
+
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
                   About
                 </NavLink>
               </li>
+
+
               <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
                   Contact
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/blog">
-                  Product
                 </NavLink>
               </li>
             </ul>
